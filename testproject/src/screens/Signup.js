@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import { View, Text, SafeAreaView, StyleSheet, TextInput, Image, TouchableOpacity, KeyboardAvoidingView, Dimensions } from 'react-native'
+import { View, Text, SafeAreaView, ScrollView, StyleSheet, TextInput, Image, TouchableOpacity, KeyboardAvoidingView, Dimensions } from 'react-native'
 import Axios from 'axios'
 
 import Images from '../assets'
-import { ScrollView } from 'react-native-gesture-handler'
 const { height, width } = Dimensions.get("window")
 
 export default function Signup({navigation}){
